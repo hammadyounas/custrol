@@ -484,7 +484,198 @@ __links:hover{
   font-size: 14px;
   color: #525759;
 }
-
+.quarterly-discount .left-card .progressbar-panel{
+  background: #fff;
+  border-bottom: 1px solid #d9d9d9;
+  padding: 20px 0 20px 24px;
+}
+.quarterly-discount .left-card .progressbar-panel .vertical-line {
+  margin-top: 10px;
+  width: 8px;
+  float: left;
+}
+.quarterly-discount .left-card .progressbar-panel .vertical__grey {
+  background: #ccc;
+}
+.quarterly-discount .left-card .progressbar-panel .vertical__bullet {
+  display: block;
+  background: #018b46;
+  padding: 0 2px;
+  border-radius: 50%;
+  text-align: center;
+  /* position: relative; */
+  height: 8px;
+  line-height: 0.01;
+}
+.quarterly-discount .left-card .progressbar-panel .vertical__big:before {
+  font-family: "castrol-icon-font";
+  content: "\61";
+  font-size: 18px;
+  background: #fff;
+  color: #018b46;
+  margin-left: -7px;
+  border-radius: 50%;
+  line-height: 0.4;
+}
+.quarterly-discount .left-card .progressbar-panel .vertical__none:before {
+  font-family: "castrol-icon-font";
+  /* content: "\76"; */
+  font-size: 18px;
+  background: #fff;
+  color: #ec1c2d;
+  margin-left: -7.2px;
+  border-radius: 50%;
+  line-height: 0.4;
+}
+.quarterly-discount .left-card .progressbar-panel .vertical__hr {
+  height: 58px;
+  width: 4px;
+  background: #018b46;
+  /* display: inline-block; */
+  margin: -2px 0 -5px 2.1px;
+}
+.quarterly-discount .left-card .progressbar-panel .progress-info {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  width: 90%;
+  margin-left: 22px;
+}
+.quarterly-discount .left-card .progressbar-panel .progress-info .progress-block{
+  height: 68px;
+  padding-top: 4px;
+}
+.quarterly-discount .left-card .progressbar-panel .progress-info .progress-info-ammount{
+  font-family: castrol-regular, helvetica neue, helvetica, freesans, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  color: #525759;
+  padding: 0 0 4px;
+  margin: 0;
+}
+.quarterly-discount .left-card .progressbar-panel .progress-info .progress-info-ammount-info{
+  opacity: 0.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.0;
+  color: #525759;
+  margin: 0;
+  letter-spacing: -0.3px;
+}
+.quarterly-discount .left-card .panel-note {
+  border-radius: 0 0 2px 2px;
+  background: #fafafa;
+  padding: 8px 16px;
+}
+.quarterly-discount .left-card .panel-note__info {
+  opacity: 0.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  text-align: center;
+  color: #525759;
+  margin: 0;
+}
+.quarterly-discount .right-panel {
+  border-radius: 2px;
+  background-color: #ffffff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.24), 0 0 2px 0 rgba(0, 0, 0, 0.12);
+  border-style: solid;
+  border-width: 0.5px;
+  border-image-source: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0) 80%, rgba(0, 0, 0, 0.02) 95%, rgba(0, 0, 0, 0.04));
+  border-image-slice: 1;
+}
+.quarterly-discount .right-panel .__head {
+  -ms-flex-align: left;
+      align-items: left;
+  border-bottom: 1px solid #ccc;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column nowrap;
+      flex-flow: column nowrap;
+  -ms-flex-pack: left;
+      justify-content: left;
+  padding: 16px 0 10px 16px;
+  background: #fafafa;
+}
+.quarterly-discount .right-panel .__head__title {
+  font-family: castrol-regular, helvetica neue, helvetica, freesans, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #525759;
+  line-height: 1.2;
+}
+.quarterly-discount .right-panel .__head__date {
+  opacity: 0.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.8;
+  color: #525759;
+}
+.quarterly-discount .right-panel .body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap;
+  padding: 16px;
+}
+.quarterly-discount .right-panel .body .__box {
+  -ms-flex: 1 1 33.33%;
+      flex: 1 1 33.33%;
+}
+.quarterly-discount .right-panel .body .__box__title {
+  font-family: castrol-regular, helvetica neue, helvetica, freesans, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  color: #525759;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 4px;
+}
+.quarterly-discount .right-panel .body .__box__value {
+  opacity: 0.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #525759;
+}
+.quarterly-discount .right-panel .body .__full-order {
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  border-radius: 3px;
+  border: solid 1px #d9d9d9;
+  padding: 16px 0 13px;
+  font-family: castrol-regular, helvetica neue, helvetica, freesans, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #018b46;
+  margin-top: 16px;
+  cursor: pointer;
+}
+.quarterly-discount .right-panel .body .__full-order:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+.quarterly-discount .right-panel .footer {
+  border-top: 1px solid #ccc;
+  border-radius: 2px;
+  background-color: #fafafa;
+  opacity: 0.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  color: #525759;
+  padding: 8px 16px;
+}
 
 @media (max-width: 992px) {
   .header {
